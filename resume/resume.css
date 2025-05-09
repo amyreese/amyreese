@@ -1,0 +1,138 @@
+@page {
+    size: letter portrait;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: darkgrey;
+    font-size: 12pt;
+}
+
+code {
+    font-size: 1em;
+    font-family: "input-sans-narrow";
+    font-weight: 200;
+}
+
+main {
+    height: 11in;
+    width: 8.5in;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    margin: 0;
+    padding: 1em 2em;
+}
+
+header h1 {
+    font-family: "ff-tisa-web-pro";
+    font-weight: 600;
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+aside {
+    float: right;
+    margin: 0 1em;
+    padding: 0 1em;
+    background-color: #f0f0f0;
+}
+
+aside section h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside li a {
+    font-family: "input-sans-narrow";
+    font-weight: 200;
+    letter-spacing: -1px;
+    color: black;
+    text-decoration: none;
+}
+
+aside .link {
+    font-size: 10pt;
+    margin-top: 17em;
+}
+
+article {
+    margin: 0 2em;
+}
+article h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+article time {
+    position:relative;
+    float: left;
+    width: 0.5in;
+    text-align: center;
+    top: 3pt;
+    left: -0.6in;
+    margin-right: -0.6in;
+    font-size: 9pt;
+}
+
+article div {
+    margin: 1em 0.6in;
+}
+article h2 {
+    display: inline;
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+article h3::before {
+    content: '— ';
+}
+article h3 {
+    display: inline;
+    font-size: 10pt;
+    padding-top: 1pt;
+}
+
+article address {
+    display: inline;
+    float: right;
+    padding-top: 1pt;
+    font-size: 10pt;
+    font-weight: 300;
+    font-style: normal;
+}
+
+article p {
+    margin: 0;
+}
+
+article ul {
+    font-size: 11pt;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+}
+article li::before {
+    float: left;
+    width: 1em;
+    left: -1em;
+    content: '·';
+}
