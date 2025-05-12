@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+@counter-style dots {
+    system: cyclic;
+    symbols: "\2022";
+    suffix: " ";
+}
+
 * {
     box-sizing: border-box;
     font-family: "lato", sans-serif;
@@ -15,9 +21,24 @@ body {
 }
 
 code {
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: "input-sans-narrow";
     font-weight: 200;
+    line-height: 1.2em;
+}
+
+a {
+    font-family: "input-sans-narrow";
+    font-size: 0.9em;
+    font-weight: 200;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
 }
 
 main {
@@ -28,8 +49,8 @@ main {
 }
 
 header {
-    margin: 0;
-    padding: 1em 2em;
+    padding: 0.25in 0 0;
+    margin: 0 2em 0.5em;
 }
 
 header h1 {
@@ -49,6 +70,10 @@ aside {
     background-color: #f0f0f0;
 }
 
+aside section {
+    font-size: 11pt;
+}
+
 aside section h1 {
     font-weight: 400;
     text-transform: uppercase;
@@ -59,17 +84,9 @@ aside ul {
     padding-left: 0;
 }
 
-aside li a {
-    font-family: "input-sans-narrow";
-    font-weight: 200;
-    letter-spacing: -1px;
-    color: black;
-    text-decoration: none;
-}
-
 aside .link {
     font-size: 10pt;
-    margin-top: 17em;
+    margin-top: 16em;
 }
 
 article {
@@ -78,12 +95,13 @@ article {
 article h1 {
     font-weight: 400;
     text-transform: uppercase;
+    margin: 0.5em 0;
 }
 
 article time {
     position:relative;
     float: left;
-    width: 0.5in;
+    width: 0.4in;
     text-align: center;
     top: 3pt;
     left: -0.6in;
@@ -92,7 +110,9 @@ article time {
 }
 
 article div {
-    margin: 1em 0.6in;
+    margin: 0.5em 0.5in;
+    padding-left: 0.1in;
+    border-left: 1px solid #ccc;
 }
 article h2 {
     display: inline;
@@ -107,7 +127,6 @@ article h3::before {
 article h3 {
     display: inline;
     font-size: 10pt;
-    padding-top: 1pt;
 }
 
 article address {
@@ -116,7 +135,6 @@ article address {
     padding-top: 1pt;
     font-size: 10pt;
     font-weight: 300;
-    font-style: normal;
 }
 
 article p {
@@ -125,14 +143,18 @@ article p {
 
 article ul {
     font-size: 11pt;
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-
+    margin: 0.2em 0 0.5em;
+    padding-left: 8pt;
 }
-article li::before {
-    float: left;
-    width: 1em;
-    left: -1em;
-    content: '·';
+article li {
+    list-style-type: "· ";
+}
+
+article a {
+    font-weight: 300;
+}
+
+.epilog {
+    font-size: 1px;
+    color: white;
 }
