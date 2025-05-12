@@ -15,8 +15,13 @@
 }
 
 body {
-    background-color: darkgrey;
     font-size: 12pt;
+}
+
+@media screen {
+    body {
+        background-color: darkgrey;
+    }
 }
 
 code {
