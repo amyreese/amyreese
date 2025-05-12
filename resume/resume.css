@@ -3,16 +3,15 @@
     margin: 0;
 }
 
-@counter-style dots {
-    system: cyclic;
-    symbols: "\2022";
-    suffix: " ";
-}
-
 * {
     box-sizing: border-box;
     font-family: "lato", sans-serif;
     font-weight: 300;
+}
+
+.ph {
+    position: relative;
+    top: 1pt;
 }
 
 body {
@@ -61,32 +60,6 @@ header h1 {
 
 header p {
     margin: 0;
-}
-
-aside {
-    float: right;
-    margin: 0 1em;
-    padding: 0 1em;
-    background-color: #f0f0f0;
-}
-
-aside section {
-    font-size: 11pt;
-}
-
-aside section h1 {
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-aside ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-aside .link {
-    font-size: 10pt;
-    margin-top: 16em;
 }
 
 article {
@@ -154,7 +127,34 @@ article a {
     font-weight: 300;
 }
 
+aside {
+    float: right;
+    margin: 0 1em;
+    padding: 0 1em;
+    background-color: #f0f0f0;
+}
+
+aside section {
+    font-size: 11pt;
+}
+
+aside section h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside .link {
+    font-size: 10pt;
+    margin-top: 18em;
+}
+
 .epilog {
     font-size: 1px;
     color: white;
+    text-align: center;
 }
