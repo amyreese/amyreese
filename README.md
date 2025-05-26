@@ -2,6 +2,11 @@
 
 I am a senior engineer, writing Python professionally since 2010, and working on foundational infrastructure and tooling to support thousands of engineers, data scientists, and ML researchers. I am also the maintainer of numerous open source libraries on PyPI, and an experienced speaker from Python conferences and meetups around the world.
 
+### Links
+
+- Conference talks: [PyVideo recordings](https://pyvideo.org/speaker/amethyst-reese.html), [slides / source code](https://github.com/amyreese/pycon)
+
+
 ### Follow Me
 
 - Mastodon:
