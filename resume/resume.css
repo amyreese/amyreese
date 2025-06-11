@@ -130,6 +130,9 @@ article li {
 
 article a {
     font-weight: 300;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: darkgrey;
 }
 
 aside {
