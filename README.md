@@ -14,4 +14,4 @@ I am a senior engineer, writing Python professionally since 2010, and working on
 - Bluesky:
   <a rel="me" href="https://bsky.app/profile/amethyst.cat">@amethyst.cat</a>
 - Other:
-  <a rel="me" href="https://n7.gg">n7.gg</a>
+  <a rel="me" href="https://amethyst.cat">https://amethyst.cat</a>
